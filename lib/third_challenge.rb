@@ -16,7 +16,18 @@ def third_challenge
         status: "alive"
         #your key/value pairs here
         },
-      :hero_friends => []
+      :hero_friends => [
+        {
+          name: "Benvolio",
+          age: "17",
+          attitude: "worried"
+        },
+        {
+          name: "Mercuito",
+          age: "18",
+          attitude: "hot headed"
+        }
+      ]
    },
    :capulet => {
       :patriarch => {
@@ -35,7 +46,18 @@ def third_challenge
         status: "alive"
         #your key/value pairs here
         },
-      :heroine_friends => []
+      :heroine_friends => [
+        {
+          name: "Steven",
+          age: "30",
+          attitude: "confused"
+        },
+        {
+          name: "nurse",
+          age: "44",
+          attitude: "worried"
+        }
+      ]
    }
   }
 
